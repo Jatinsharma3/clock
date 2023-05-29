@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+#ko{
+  font-size: 50px;
+  /* display:flex ; */
+  /* justify-content: center; */
+  /* align-items: left; */
+  
+}
+#lk{
+  border: solid 2px white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-size: 100px;
+  color: yellow
+}
+#btn1, #btn2{
+  background: none;
+  border: none;
+  font-size:20px;
+  margin: 20px;
+  border: solid 2px white;
+  padding : 12px;
+}
+#tt{
+  display:flex;
+  gap:20px;
+  
+}
+
