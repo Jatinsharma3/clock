@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 html {
+ font-family: 'Roboto', sans-serif;
   height: 100%;
   width: 100%;
 }
@@ -9,13 +11,15 @@ html {
 }
 #ko{
   font-size: 50px;
-  /* display:flex ; */
-  /* justify-content: center; */
-  /* align-items: left; */
+ margin-bottom: 20px;
+   -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #545454;
   
 }
 #lk{
-  border: solid 2px white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
 }
 body {
   display: flex;
@@ -24,19 +28,19 @@ body {
   height: 100vh;
   align-items: center;
   font-size: 100px;
-  color: yellow
+  color: white
 }
 #btn1, #btn2{
-  background: none;
+  border-radius: 5px;
+  background: black;
+  color: white;
   border: none;
   font-size:20px;
   margin: 20px;
-  border: solid 2px white;
-  padding : 12px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  padding : 12px;
 }
 #tt{
   display:flex;
   gap:20px;
   
 }
-
